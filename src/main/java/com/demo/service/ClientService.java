@@ -26,8 +26,8 @@ public class ClientService  {
     }
 
     public void deleteData(String pan) {
-        Client c = clientRepository.findBypancard(pan);
-        clientRepository.delete(c);
+        Client d = clientRepository.findBypancard(pan);
+        clientRepository.delete(d);
 
 
 
